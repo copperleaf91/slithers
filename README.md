@@ -3,8 +3,9 @@
 <figure>
     <img src="images/manifold.png"
          alt="Pictorial representation of using Lie theory to move across the Lie group using the corresponding Lie algebra. The motion in between each point on the Lie group (manifold) can be represented as a motion on the corresponding Lie algebra (tangent surface).">
-    <figcaption>Pictorial representation of using Lie theory to move across the Lie group using the corresponding Lie algebra. The motion in between each point on the Lie group (manifold) can be represented as a motion on the corresponding Lie algebra (tangent surface).</figcaption>
 </figure>
+
+*Pictorial representation of using Lie theory to move across the Lie group using the corresponding Lie algebra. The motion in between each point on the Lie group (manifold) can be represented as a motion on the corresponding Lie algebra (tangent surface).*
 
 We present SLITHERS (State planner using LIe THEory for RoboticS), a Lie theory based optimization approach for state planning of mobile manipulators. 
 Given the sequence of end effector poses, SLITHERS solves for the joint values incrementally using kinematic constraints found through Lie theory. 
@@ -18,8 +19,9 @@ In this study, our contribution is three-folds:
 <figure>
     <img src="images/manipulator_proposed.png"
          alt="The framework of SLITHERS which takes in a set of desired end effector poses, computes the desired state based off of an objective function, and executes the motion to achieve the desired states.">
-    <figcaption>The framework of SLITHERS which takes in a set of desired end effector poses, computes the desired state based off of an objective function, and executes the motion to achieve the desired states.</figcaption>
 </figure>
+
+*The framework of SLITHERS which takes in a set of desired end effector poses, computes the desired state based off of an objective function, and executes the motion to achieve the desired states.*
 
 ## Directories
 
@@ -48,8 +50,9 @@ The `export_fig` directory contains a copy of [export_fig](https://github.com/al
 <figure>
     <img src="images/full_pose.png"
          alt="Test paths used for the simulated experiment with the colored axes representing the desired pose of the end effector. The red, blue, and green axes represent the x, y, and z axes, respectively.">
-    <figcaption>Test paths used for the simulated experiment with the colored axes representing the desired pose of the end effector. The red, blue, and green axes represent the x, y, and z axes, respectively.</figcaption>
 </figure>
+
+*Test paths used for the simulated experiment with the colored axes representing the desired pose of the end effector. The red, blue, and green axes represent the x, y, and z axes, respectively.*
 
 <figure>
     <img src="images/full_error_nh.png"
